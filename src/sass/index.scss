@@ -1,1 +1,11 @@
-@import "./utils/vars";
+// utils
+@import './utils/vars';
+@import './utils/breakpoints';
+@import './utils/root';
+
+// pages
+@import './pages/hero';
+
+// components
+@import './components/header';
+@import './components/buttons/buttons';
