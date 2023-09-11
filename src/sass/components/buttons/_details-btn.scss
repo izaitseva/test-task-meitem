@@ -1,0 +1,12 @@
+.details-btn {
+    border: 2px solid $btn-color;
+    color: $unactive-btn-text-color;
+    border-radius: 5px;
+    background-color: transparent;
+    text-align: center;
+
+    font-weight: 500;
+    font-family: $primary-font;
+    font-size: $font-size-medium;
+    padding: 13px 25px;
+}

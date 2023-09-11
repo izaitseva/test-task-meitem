@@ -1,0 +1,22 @@
+.lang-btn {
+  border: none;
+  border-radius: 3px;
+  height: 40px;
+  color: $unactive-btn-text-color;
+  width: 40px;
+  background-color: transparent;
+
+  font-size: $font-size-lang-btn;
+  font-weight: 700;
+
+  &:hover,
+  &:focus {
+    background-color: $btn-color;
+    color: $secondary-text-color;
+  }
+
+  &:active {
+    background-color: $btn-color;
+    color: $secondary-text-color;
+  }
+}

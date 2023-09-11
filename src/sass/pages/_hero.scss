@@ -1,15 +1,41 @@
 .main-container {
   display: flex;
   gap: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: linear-gradient(
+    to bottom,
+    $secondary-gradient-color 0%,
+    $main-gradient-color 30%
+  );
+  padding-left: 60px;
 }
 
-.header-section {
+.heading-section {
   max-width: 340px;
 }
 
-.header-section-p {
+.heading-section-p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 24px;
   line-height: 26px;
+}
+
+.desc-section {
+  align-self: flex-end;
+  max-width: 320px;
+}
+
+.desc-heading {
+  font-size: $font-size-heading;
+  font-weight: 300;
+  margin: 0;
+}
+
+.name {
+  font-size: $font-size-heading;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
